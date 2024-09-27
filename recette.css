@@ -1,0 +1,136 @@
+
+*{
+    overflow: auto;
+}
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+
+div.contenu {
+    background-color: white;
+    margin: 60px 10% 60px 10%;
+    padding: 0px 30px 30px 30px;
+    min-width: 400px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.12);
+    overflow: visible;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+.centre{
+    text-align: center;
+    width: 100%;
+}
+p.categorie {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 7px 18px;
+    margin-bottom: 0px;
+    margin-top: -15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.categorie{
+    margin-bottom: 0pc;
+    margin-top: 0px;
+    overflow: visible;
+}
+div.separateur{
+    background-color: black;
+    width: 100px;
+    height: 1px;
+   margin-left: auto;
+   margin-right: auto;
+}
+table.info{
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    background-color:#6C829DC0;
+    color: white;
+    height: 70px;
+}
+div.info{
+    position: relative;
+    
+}
+table.info td {
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+table.info th{
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 4px;
+}
+img.info{
+    display: block;
+    object-fit: cover;
+    max-height: 400px;
+    min-height: 300px;
+    background-color: lightgray;
+}
+div.colonne1{
+    display: inline-block;
+    margin-right: 5%;
+}
+div.colonne2{
+    float: right;
+}
+div.colonne{
+    width: 45%;
+    margin-top: 15px;
+}
+div.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px #6C829D solid;
+    padding-bottom: 5px;
+}
+
+div.g1 p{
+    border: 1px lightgray solid;
+    padding: 4px;
+    margin-bottom: 0px;
+    margin-top: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+table.p td{
+    vertical-align: top;
+    
+}
+table.p p.numero{
+    background-color: #6C829D;
+    color: white;
+    width: 25px;
+    text-align: center;
+    padding-top: 4px;
+    height: 25px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+table.p td.etape{
+    font-size: 14px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+}
+table.p tr{
+    height: 35px;
+}
+
